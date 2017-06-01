@@ -1,0 +1,17 @@
+<p>
+  second works!
+</p>
+
+<ol>
+
+<li *ngFor='let x of api'>{{x}}</li>
+</ol>
+<div>
+<input type="text" [(ngModel)]="myModel"/>
+<button (click)="eventChange(myModel)">Search  </button>
+</div>{{result}}
+
+<ol>
+
+<li *ngFor='let x of result.items'>{{x.login}}<img class="avatar" src={{x.avatar_url}}></li>
+</ol>
