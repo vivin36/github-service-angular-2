@@ -15,3 +15,11 @@
 
 <li *ngFor='let x of result.items'>{{x.login}}<img class="avatar" src={{x.avatar_url}}></li>
 </ol>
+
+<div>
+      <ngx-datatable
+        [rows]="rows"
+        [columns]="columns"
+        [reorderable]="reorderable">
+      </ngx-datatable>
+    </div>
