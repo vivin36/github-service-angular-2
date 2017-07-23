@@ -1,0 +1,22 @@
+[
+  {
+    "reportName": "Primary Operations"
+  },
+  {
+    "reportName": "Curated Games"
+  },
+  {
+    "reportName": "outdoor",
+    "SubMenu": [
+      {
+        "res": "Cricket"
+      },
+      {
+        "res": "football"
+      },
+      {
+        "res": "Hockey"
+      }
+    ]
+  }
+]

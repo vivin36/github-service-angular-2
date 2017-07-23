@@ -13,6 +13,29 @@
 
 <ol>
 
+<div class="container" id="div1">
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  
+</table>
+        <button id="create" (click)="convert()">Create file</button> 
+    </div>
+
 <li *ngFor='let x of result.items'>{{x.login}}<img class="avatar" src={{x.avatar_url}}></li>
 </ol>
 
