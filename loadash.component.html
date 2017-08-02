@@ -1,0 +1,36 @@
+<p>
+  loadash works!
+</p>
+
+
+
+<ul>
+  <li *ngFor="let item of data; let i = index">
+    {{i}} {{item.groupText}}
+  </li>
+</ul>
+formatted
+<ul>
+  <li *ngFor="let item of formatted; let i = index">
+    {{i}} {{item.sales_id}}
+  </li>
+</ul>
+
+
+
+<ul>
+ <li *ngFor="let item of finalArray; let i = index">
+    {{i}} 
+    <ul>
+  <li *ngFor="let item1 of item.salesId; let j = index">
+    {{j}} {{item1.salesid}}{{item.outlet}}
+  </li>
+</ul>
+  </li>
+</ul>
+
+	
+
+
+
+
